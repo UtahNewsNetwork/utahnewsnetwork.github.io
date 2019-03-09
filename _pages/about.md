@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Utah News Network
+title: Mediumish Template for Jekyll
 permalink: /about
 comments: true
 ---
