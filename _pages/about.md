@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Utah News Network
+title: About Us
 permalink: /about
 comments: true
 ---
