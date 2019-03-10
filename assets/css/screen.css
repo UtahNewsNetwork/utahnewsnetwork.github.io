@@ -20,7 +20,7 @@ License: https://www.wowthemes.net/freebies-license/
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 7px;
-    font-family: monospace, sans-serif;
+    font-family: sans-serif, Arial;
     font-size: 14px;
     white-space: pre;
     overflow: auto;
@@ -223,7 +223,7 @@ License: https://www.wowthemes.net/freebies-license/
      margin-right:5px;
 }
  .mainheading h1.sitetitle {
-     font-family:Righteous;
+     font-family:sans-serif;
 }
  .mainheading h1.posttitle {
      font-weight:700;
@@ -244,7 +244,7 @@ License: https://www.wowthemes.net/freebies-license/
      color:rgba(0,0,0,.8);
 }
  .article-post {
-     font-family:Merriweather;
+     font-family:sans-serif;
      font-size:1.1rem;
      line-height:1.84;
      color:rgba(0,0,0,.8);
