@@ -109,7 +109,7 @@ ga('send', 'pageview');
     
 <!-- Site Title
 ================================================== -->
-<div class="mainheading">
+<div class="mainheading" id="Heading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
          {{ site.description }}
@@ -120,14 +120,14 @@ ga('send', 'pageview');
     
 <!-- Content
 ================================================== --> 
-<div class="main-content">
+<div class="main-content" id="Content">
     {{ content }}
 </div>
 
 {% if site.mailchimp-list %}
 <!-- Bottom Alert Bar
 ================================================== -->
-<div class="alertbar">
+<div class="alertbar" id="Alertbar">
 	<div class="container text-center">
 		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
@@ -144,7 +144,7 @@ ga('send', 'pageview');
 
 <!-- Categories Jumbotron
 ================================================== -->
-<div class="jumbotron fortags">
+<div class="jumbotron fortags" id="Jumbo">
 	<div class="d-md-flex h-100">
 		<div class="col-md-4 transpdark align-self-center text-center h-100">
             <div class="d-md-flex align-items-center justify-content-center h-100">
@@ -176,7 +176,7 @@ ga('send', 'pageview');
 
 <!-- Begin Footer
 ================================================== -->
-<footer class="footer">
+<footer class="footer" id="Footer">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
