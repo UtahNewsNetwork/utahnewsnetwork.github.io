@@ -14,14 +14,14 @@ License: https://www.wowthemes.net/freebies-license/
      color: #038252;
      text-decoration:none;
 }
-.mainheading {
+.container {
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.mainheading {
+.container {
     background-image: url('../images/background.jpg');
     min-width: 100%;
 }
