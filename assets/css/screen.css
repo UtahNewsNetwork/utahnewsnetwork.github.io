@@ -14,17 +14,7 @@ License: https://www.wowthemes.net/freebies-license/
      color: #038252;
      text-decoration:none;
 }
-.site-content {
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.site-content{
-    background-image: url('../images/background.jpg');
-    min-width: 100%;
-}
+
  pre {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -45,6 +35,17 @@ License: https://www.wowthemes.net/freebies-license/
      background:rgba(255,255,255,.97);
      box-shadow:0 2px 2px -2px rgba(0,0,0,.15);
      transition: top 0.2s ease-in-out;
+}
+.site-content {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.site-content{
+    background-image: url('../images/background.jpg');
+    min-width: 100%;
 }
  .main-content {
     min-height:300px;
