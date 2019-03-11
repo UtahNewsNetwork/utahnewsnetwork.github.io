@@ -47,6 +47,12 @@ License: https://www.wowthemes.net/freebies-license/
     background-image: url('../images/background.jpg');
     min-width: 100%;
 }
+.whitebox{
+    width: 80%;
+    height: 80%;
+    color: #000;
+    opacity: 0.75;
+}
  .main-content {
     min-height:300px;
 }

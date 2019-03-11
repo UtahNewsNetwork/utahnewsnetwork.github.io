@@ -109,18 +109,20 @@ ga('send', 'pageview');
 	<!-- Site Title
 ================================================== -->
 <div class="mainheading" id="Heading">
-    <section class="sectionlight">
+    <div class="whitebox">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
          {{ site.description }}
     </p>
-    </section>
+    </div>
 </div>
 <!-- Content
 ================================================== --> 
 
 <div class="main-content" id="Content">
-	 {{ content }}
+    <div class="whitebox">
+     {{ content }}
+    </div>
 </div>
 
 {% if site.mailchimp-list %}
