@@ -48,8 +48,10 @@ License: https://www.wowthemes.net/freebies-license/
     min-width: 100%;
 }
 .whitebox{
+    height: 50%;
+    width: 50%;
     background-color: #fff;
-    color: black;
+    color: #000;
 }
  .main-content {
     min-height:300px;
